@@ -11,7 +11,6 @@
 		469025C71D44F1EB00DEDFE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469025C61D44F1EB00DEDFE3 /* main.m */; };
 		469025C91D44F1EB00DEDFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469025C81D44F1EB00DEDFE3 /* Assets.xcassets */; };
 		469025CC1D44F1EC00DEDFE3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469025CA1D44F1EC00DEDFE3 /* MainMenu.xib */; };
-		469025D81D453A4600DEDFE3 /* binders.png in Resources */ = {isa = PBXBuildFile; fileRef = 469025D71D453A4600DEDFE3 /* binders.png */; };
 		469025DA1D4545EF00DEDFE3 /* loud.png in Resources */ = {isa = PBXBuildFile; fileRef = 469025D91D4545EF00DEDFE3 /* loud.png */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +22,6 @@
 		469025C81D44F1EB00DEDFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		469025CB1D44F1EC00DEDFE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		469025CD1D44F1EC00DEDFE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		469025D71D453A4600DEDFE3 /* binders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = binders.png; sourceTree = "<group>"; };
 		469025D91D4545EF00DEDFE3 /* loud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loud.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				469025D91D4545EF00DEDFE3 /* loud.png */,
-				469025D71D453A4600DEDFE3 /* binders.png */,
 				469025C61D44F1EB00DEDFE3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				469025C91D44F1EB00DEDFE3 /* Assets.xcassets in Resources */,
-				469025D81D453A4600DEDFE3 /* binders.png in Resources */,
 				469025CC1D44F1EC00DEDFE3 /* MainMenu.xib in Resources */,
 				469025DA1D4545EF00DEDFE3 /* loud.png in Resources */,
 			);
@@ -293,6 +289,7 @@
 				469025D21D44F1EC00DEDFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
