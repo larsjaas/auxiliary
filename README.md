@@ -23,11 +23,10 @@ for your PleX player is used. I use OpenPHT.
 You should also maybe set self.debug to YES to see some logging when you first
 try it out.
 
-When you build an run Auxiliary, a new icon of a megaphone should appear
-in the menu bar. Clicking on it does nothing, except if you press the Control
-key at the same time - then Auxiliary will quit.
+When you build and run Auxiliary, a new icon of a megaphone should appear
+in the menu bar. Clicking on it does nothing, except if you hold down the
+Control key while clicking - then Auxiliary will quit.
 
 Auxiliary is set up like a UIElement this way so you don't get any clutter
-in the dock or in the task-switcher, but to see that it is running, you look
-for the megaphone icon.
-
+in the dock or in the task-switcher, and the megaphone menubar icon indicates
+that Auxiliary is running.
